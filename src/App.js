@@ -1,26 +1,19 @@
 import React from 'react'
 import './App.scss'
 
-import Microlink from '@microlink/react'
-
-
 import Preview from './components/Preview'
 
 function App() {
   return (
     <div className="App">
       <div className='thumbnail-row'>
-        {/* <Microlink url='https://instagram.com/p/Bu1-PpyHmCn/' size='large' /> */}
-
-
-
-        {/* <Preview url={'nytimes.com'} /> */}
-        {/* <Preview url={'lemonde.fr'} /> */}
-        {/* <Preview url={'https://www.spiegel.de/'} /> */}
-        <Preview url={'https://www.milieugrotesque.com/'} />
+        <Preview url='http://insprd.io/' id='first-place' />
+        <Preview url='http://form.gd/' id='second-place' />
+        <Preview url='https://common-sensing.com/' id='third-place'/>
       </div>
     </div>
   )
+
 
 }
 
